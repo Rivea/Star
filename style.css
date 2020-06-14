@@ -1,0 +1,72 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.pimg1 {
+  background-image: url("./img6.jpeg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("./img7.jpeg");
+  min-height: 60%;
+}
+
+.pimg3 {
+  background-image: url("./img1.jpeg");
+  min-height: 60%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section1 {
+  background-color: blanchedalmond;
+  color: #666;
+}
+
+.section2 {
+  background-color: rgb(53, 51, 51);
+  color: rgb(245, 235, 223);
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: beige;
+  font-size: 27px;
+}
+
+.border {
+  color: bisque;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: bisque;
+  border: solid;
+}
+
+a {
+  text-decoration: none;
+  color: bisque;
+}
